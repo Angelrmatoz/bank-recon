@@ -1,0 +1,6 @@
+id,date,amount,description
+10,2024-01-02,100.00,Deposit
+11,2024-01-03,-25.50,Coffee
+12,2024-01-05,50.00,Duplicate amount A
+13,2024-01-05,50.00,Duplicate amount B
+14,2024-01-06,99.00,No matching bank row

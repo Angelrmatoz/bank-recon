@@ -1,0 +1,5 @@
+id,date,amount,description
+1,2024-01-02,100.00,Deposit
+2,2024-01-03,-25.50,Coffee
+3,2024-01-04,10.00,No matching ledger row
+4,2024-01-05,50.00,Duplicate amount

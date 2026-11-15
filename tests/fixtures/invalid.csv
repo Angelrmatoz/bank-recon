@@ -1,0 +1,7 @@
+id,date,amount,description
+1,2024-01-02,10.00,Valid row
+2,2024-13-40,5.00,Bad date
+3,2024-01-03,abc,Bad amount
+x,2024-01-03,5.00,Bad id
+1,2024-01-04,5.00,Duplicate id
+5,2024-01-05,1.234,Too many decimals
