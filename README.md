@@ -3,37 +3,24 @@
 Bank reconciliation engine in Python. Phase 0 loads bank and ledger CSV files
 and matches rows one-to-one on exact `(date, amount)`.
 
+Repository: <https://github.com/Angelrmatoz/bank-recon>
+
 ## Requirements
 
 - Python 3.10+
-- pytest (development only)
+- pytest available in the environment
 
 Runtime uses the standard library only.
 
 ## Verify
 
-```console
-python -m venv .venv
-```
-
-Windows:
+From the repository root:
 
 ```console
-.venv\Scripts\activate
+python -m pytest -q
 ```
 
-macOS / Linux:
-
-```console
-source .venv/bin/activate
-```
-
-Then:
-
-```console
-python -m pip install -e ".[dev]"
-pytest -q
-```
+No install step is required: tests import `recon` from the working directory.
 
 ## Usage
 

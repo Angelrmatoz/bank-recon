@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "bank-recon"
 version = "0.1.0"
-description = "Bank reconciliation engine with exact and fuzzy matching"
+description = "Bank reconciliation engine with deterministic one-to-one matching"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
